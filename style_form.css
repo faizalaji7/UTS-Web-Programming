@@ -1,0 +1,163 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #35A8EA;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+}
+
+.container {
+	background-color: #ffffff;
+	border-radius: 5px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow: hidden;
+	width: 400px;
+	max-width: 100%;
+}
+
+.header {
+	border-bottom: 1px solid #35A8EA;
+	background-color: #35A8EA;
+	padding: 20px 40px;
+}
+
+.header h2 {
+    margin: 0;
+    color: #ffffff;
+}
+
+.form {
+	padding: 30px 40px;	
+}
+
+.form-control {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.form-control label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777777;
+}
+
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+}
+
+.form-control i {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form-control small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+.form button {
+	background-color: #35A8EA;
+	border: 2px solid #35A8EA;
+	border-radius: 20px;
+	color: #ffffff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.floating-btn {
+	border-radius: 26.5px;
+	background-color: #0c3fad;
+	border: 1px solid #0c3fad;
+	box-shadow: 0 16px 22px -17px #0c3fad;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 12px 20px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 999;
+}
+
+.floating-text {
+	background-color: #0c3fad;
+	border-radius: 10px 10px;
+	color: #ffffff;
+	font-family: 'Muli';
+	padding: 7px 15px;
+	position: fixed;
+	bottom: 4px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	z-index: 998;
+}
+
+.floating-text a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+p {
+    font-size: 12px;
+    text-align: center;
+    color: #9b9b9b;
+}
+p a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #1a73e8;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

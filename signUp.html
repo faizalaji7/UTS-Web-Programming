@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style_form.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css1?family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Buat Akun</h2>
+    </div>
+    <form id="form" class="form">
+      <div class="form-control">
+        <label for="username">Username</label>
+        <input type="text" placeholder="Username" id="username"/>
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error message</small>
+      </div>
+      <div class="form-control">
+        <label for="username">Email</label>
+        <input type="email" placeholder="LoremIpsum@mail.com" id="email" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error message</small>
+      </div>
+      <div class="form-control">
+        <label for="username">Password</label>
+        <input type="password" placeholder="Password" id="password"/>
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error message</small>
+      </div>
+      <div class="form-control">
+        <label for="username">Konfirmasi Password</label>
+        <input type="password" placeholder="Konfirmasi Password" id="password2"/>
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error message</small>
+      </div>
+      <button><strong>Submit</strong></button>
+    </form>
+  </div>
+  
+  <div class="floating-text"><a href="signIn.html">Kembali</a>
+  </div>
+<script src="script_signUp.js"></script>
+</body>
+</html>
